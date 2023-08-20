@@ -9,7 +9,7 @@ const index: FC<indexProps> = ({}) => {
     <SafeAreaView className='flex-1'>
       <View className='flex-1 items-center justify-center'>
         <Text>index</Text>
-      <Link href={'/modal'} asChild>
+      <Link href={'/home'} asChild>
         <Text>Go to the next page</Text>
       </Link>
       </View>
